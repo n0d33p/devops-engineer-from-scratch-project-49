@@ -13,3 +13,7 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=n0d33p_devops-engineer-from-scratch-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=n0d33p_devops-engineer-from-scratch-project-49)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=n0d33p_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=n0d33p_devops-engineer-from-scratch-project-49)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=n0d33p_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=n0d33p_devops-engineer-from-scratch-project-49)
+
+# asciinema 
+
+https://asciinema.org/a/fUKQEetUdK74YSdsQXREpCxWo
