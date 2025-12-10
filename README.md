@@ -49,12 +49,16 @@ brain-games --help
 ```
 ## 🎯 Как играть?
 После установки вы можете запустить любую игру простой командой:
+bash
 # Запуск конкретной игры
 brain-even
 brain-calc
 brain-gcd
 brain-progression
 brain-prime
+
+# Общее приветствие
+brain-games
 
 # Общее приветствие
 brain-games
@@ -68,7 +72,7 @@ https://asciinema.org/a/25Dxdy7O5Ht3AbhWKs5fwvYqh
 
 Пример успешной игры:
 
-
+bash
 brain-even
 Welcome to the Brain Games!
 May I have your name? Sam
@@ -90,9 +94,7 @@ Congratulations, Sam!
 
 https://asciinema.org/a/1FFchxFSUh406Zja4p0aoqlGx
 
-Пример с ошибкой:
-
-
+bash
 brain-calc
 Welcome to the Brain Games!
 May I have your name? Alex
