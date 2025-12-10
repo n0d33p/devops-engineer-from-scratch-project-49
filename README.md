@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/n0d33p/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/n0d33p/devops-engineer-from-scratch-project-49/actions)
 
-# python-package
+# SonarQube
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=n0d33p_devops-engineer-from-scratch-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=n0d33p_devops-engineer-from-scratch-project-49)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=n0d33p_devops-engineer-from-scratch-project-49&metric=bugs)](https://sonarcloud.io/summary/new_code?id=n0d33p_devops-engineer-from-scratch-project-49)
@@ -14,10 +14,12 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=n0d33p_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=n0d33p_devops-engineer-from-scratch-project-49)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=n0d33p_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=n0d33p_devops-engineer-from-scratch-project-49)
 
-# asciinema 
+# How it works? (asciinema)
 
 Brain-even: https://asciinema.org/a/fUKQEetUdK74YSdsQXREpCxWo
 
 Brain-calc: https://asciinema.org/a/za7erXRk9NixGkZKuYHsLKj9j
 
 Brain-gcd: https://asciinema.org/a/TEzbSWtjyjb4TcnfyhUT19Bo1
+
+Brain-progression: https://asciinema.org/a/ALOg31R92Ft34BY1rCsKeO3y4
