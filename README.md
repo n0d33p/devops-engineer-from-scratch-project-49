@@ -17,4 +17,7 @@
 # asciinema 
 
 Brain-even: https://asciinema.org/a/fUKQEetUdK74YSdsQXREpCxWo
+
 Brain-calc: https://asciinema.org/a/za7erXRk9NixGkZKuYHsLKj9j
+
+Brain-gcd: https://asciinema.org/a/TEzbSWtjyjb4TcnfyhUT19Bo1
