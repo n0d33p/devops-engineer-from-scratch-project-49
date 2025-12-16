@@ -1,9 +1,21 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "A collection of math brain games for Hexlet"
 readme = "README.md"
+authors = [
+    {name = "n0d33p", email = "zaycpetr@mail.ru"}
+]
+license = {text = "MIT"}
 requires-python = ">=3.12"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Topic :: Games/Entertainment :: Puzzle Games",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
 dependencies = [
     "prompt>=0.4.1",
 ]
@@ -27,3 +39,8 @@ brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
+
+[project.urls]
+Homepage = "https://github.com/n0d33p/devops-engineer-from-scratch-project-49"
+Repository = "https://github.com/n0d33p/devops-engineer-from-scratch-project-49"
+Issues = "https://github.com/n0d33p/devops-engineer-from-scratch-project-49/issues"

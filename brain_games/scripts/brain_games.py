@@ -1,10 +1,9 @@
 import sys
 
-from brain_games.cli import welcome_user
-from brain_games.module import greet
+from brain_games.cli import greet, welcome_user
 
 
-def show_help():
+def show_help() -> None:
     help_text = """
 Brain Games - a collection of math brain games
 
@@ -31,7 +30,7 @@ Examples:
     sys.exit(0)
 
 
-def main():
+def main() -> None:
     if len(sys.argv) > 1:
         arg = sys.argv[1]
         if arg in ['--help', '-h', 'help']:

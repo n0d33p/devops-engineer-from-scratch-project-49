@@ -1,10 +1,10 @@
 import prompt
 
-rounds_count = 3
+ROUNDS_COUNT = 3
 
 
-def run_game(name, generate_question_func):
-    for _ in range(rounds_count):
+def run_game(name: str, generate_question_func) -> bool:
+    for _ in range(ROUNDS_COUNT):
         question, correct_answer = generate_question_func()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
