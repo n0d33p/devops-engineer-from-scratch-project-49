@@ -1,50 +1,26 @@
 import sys
 
-from brain_games.cli import greet, welcome_user
-
-
-def show_help() -> None:
-    help_text = """
-Brain Games - a collection of math brain games
-
-Usage: brain-games [OPTIONS]
-
-Options:
-  --help  Show this message and exit.
-
-Available games:
-  brain-even        Determine if a number is even or odd
-  brain-calc        Calculate the result of an expression  
-  brain-gcd         Find the greatest common divisor
-  brain-progression Find the missing number in a progression
-  brain-prime       Determine if a number is prime
-
-Examples:
-  brain-even        Start the "Even number" game
-  brain-calc        Start the "Calculator" game
-  brain-gcd         Start the "GCD" game
-  brain-progression Start the "Progression" game
-  brain-prime       Start the "Prime number" game
-"""
-    print(help_text.strip())
-    sys.exit(0)
-
 
 def main() -> None:
-    if len(sys.argv) > 1:
-        arg = sys.argv[1]
-        if arg in ['--help', '-h', 'help']:
-            show_help()
-        else:
-            print(f"Unknown option: {arg}")
-            print("Try 'brain-games --help' for more information.")
-            sys.exit(1)
+    if len(sys.argv) > 1 and sys.argv[1] in ['--help', '-h']:
+        print("Usage: brain-games")
+        print("\nBrain Games - a collection of math brain games")
+        print("\nAvailable games:")
+        print("  • brain-even        - Determine if a number is even or odd")
+        print("  • brain-calc        - Calculate the result of an expression")
+        print("  • brain-gcd         - Find the greatest common divisor")
+        print("  • brain-progression - Find the missing number in "
+              "a progression")
+        print("  • brain-prime       - Determine if a number is prime")
+        print("\nRun any game with: brain-<game_name>")
+        sys.exit(0)
     
-    greet()
-    welcome_user()
-    print("Choose a game to play:")
-    print("  - brain-even")
-    print("  - brain-calc") 
-    print("  - brain-gcd")
-    print("  - brain-progression")
-    print("  - brain-prime")
+    print('Welcome to the Brain Games!')
+    print("\nAvailable games:")
+    print("  • brain-even        - Determine if a number is even or odd")
+    print("  • brain-calc        - Calculate the result of an expression")
+    print("  • brain-gcd         - Find the greatest common divisor")
+    print("  • brain-progression - Find the missing number in "
+          "a progression")
+    print("  • brain-prime       - Determine if a number is prime")
+    print("\nRun any game with: brain-<game_name>")
