@@ -1,4 +1,5 @@
 import sys
+import prompt
 
 
 def main() -> None:
@@ -16,6 +17,9 @@ def main() -> None:
         sys.exit(0)
     
     print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
+    
     print("\nAvailable games:")
     print("  • brain-even        - Determine if a number is even or odd")
     print("  • brain-calc        - Calculate the result of an expression")
